@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body,
+main {
+    height: 100%;
+}
+
+body {
+    font: 10px/1.5 Arial;
+}
+
+a {
+    text-decoration: none;
+    color: #444;
+}
+
+header {
+    position: relative;
+    width: 100%;
+}
+
+header .user {
+    position: absolute;
+    font-size: 2em;
+    margin: 10px;
+    right: 0%;
+    z-index: 1;
+}
+
+main {
+    background: url(./bg.jpg) center center no-repeat rgba(255, 152, 0, 0.45);
+    background-size: cover;
+    position: relative;
+}
+
+.layout {
+    background-color: #fff;
+    padding: 15px;
+    width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* display: none; */
+    box-shadow: 0 3px 4px 5px rgba(0, 0, 0, 0.2);
+}
+
+/* login */
+.layout .login .tab-reg {
+    text-align: center;
+    position: relative;
+    padding: 10px;
+}
+
+.layout .login .tab-reg a>i {
+    position: absolute;
+    right: 5px;
+}
+
+.layout .login .modal {
+    font-size: 1.5em;
+    margin-right: 10px;
+    padding-bottom: 5px;
+}
+
+.layout .login .tab-reg .modal.log {
+    border-bottom: 2px solid #ccc;
+}
+
+.layout .login .container input {
+    margin-top: 20px;
+    padding: 10px 25px;
+}
+
+.layout .login .container {
+    position: relative;
+    text-align: center;
+}
+
+.layout .login .container .fa-user-o,
+.fa-lock {
+    position: absolute;
+    top: 33px;
+    left: 82px;
+}
+
+.layout .login .container-sub {
+    margin-left: 73px;
+    margin-top: 20px;
+}
+
+.layout .login .container-sub .sub {
+    background-color: #fff;
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+/* register */
+.layout .register .tab-reg {
+    text-align: center;
+    position: relative;
+    padding: 10px;
+}
+
+.layout .register .tab-reg a>i {
+    position: absolute;
+    right: 5px;
+}
+
+.layout .register .modal {
+    font-size: 1.5em;
+    margin-right: 10px;
+    padding-bottom: 5px;
+}
+
+.layout .register .tab-reg .modal.reg {
+    border-bottom: 2px solid #ccc;
+}
+
+.layout .register .container input {
+    margin-top: 20px;
+    padding: 10px 25px;
+}
+
+.layout .register .container {
+    position: relative;
+    text-align: center;
+}
+
+.layout .register .container .fa-user-o,
+.fa-lock {
+    position: absolute;
+    top: 33px;
+    left: 82px;
+}
+
+.layout .register .container-sub {
+    margin-left: 73px;
+    margin-top: 20px;
+}
+
+.layout .register .container-sub .sub {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
